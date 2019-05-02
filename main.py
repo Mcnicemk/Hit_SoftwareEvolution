@@ -2,7 +2,7 @@ from PyQt5 import QtWidgets
 from components import Database as db
 from containers import Main
 import sys
-
+# Displaying the timetable
 # Entry point for application
 if __name__ == '__main__':
     if not db.checkSetup():
@@ -13,3 +13,4 @@ if __name__ == '__main__':
     parent.show()
     sys.exit(app.exec_())
     print ("timetable")
+    print ("Done")
