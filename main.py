@@ -5,6 +5,7 @@ import sys
 # Displaying the timetable
 # Entry point for application
 if __name__ == '__main__':
+#check database
     if not db.checkSetup():
         db.setup()
     app = QtWidgets.QApplication(sys.argv)
