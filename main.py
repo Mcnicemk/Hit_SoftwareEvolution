@@ -12,3 +12,4 @@ if __name__ == '__main__':
     Main.MainWindow(parent)
     parent.show()
     sys.exit(app.exec_())
+    print ("timetable")
